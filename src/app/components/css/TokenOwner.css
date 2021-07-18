@@ -1,0 +1,107 @@
+.card {
+    width: 800px;
+    display: inline-block;
+    margin: 2px;
+}
+
+@media only screen and (max-width: 800px) {
+    .card {
+        width: 94% !important;
+        display: inline-block !important;
+        margin: 2px !important;
+    }
+    .select_field {
+        background: white !important;
+        width: 250px !important;
+        margin-top: 16px !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+.card_header {
+    background: #282b2d;
+}
+
+.card_header_text {
+    float: left;
+    color: white !important;
+    opacity: 0.60 !important;
+}
+
+.card_content {
+    background: #f5f5f6;
+}
+
+.select_field {
+    background: white;
+    width: 300px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.typography {
+    padding-top: 20px;
+    color: #282b2d !important;
+}
+
+.typography_error {
+    padding-top: 20px;
+    color: #df3a31 !important;
+}
+
+.typography_error_secondary {
+    padding-top: 8px;
+    color: #df3a31 !important;
+}
+
+.ethereum_symbol {
+    float: center;
+}
+
+.token_info_header {
+    border-style: none;
+    border-color: lightgray;
+    border-radius: 2.5em;
+    height: 68px;
+    padding: 8px;
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+}
+
+.btn-border {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+
+.btn-border:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #31bfdf;
+}
+
+.btn-lg {
+    padding: 14px 33px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.btn-rm {
+    padding: 7px 0px;
+    color: #999;
+    text-transform: capitalize;
+}
+
+.btn-rm i {
+    vertical-align: middle;
+}
+
+button:focus {
+    outline: none !important;
+}
